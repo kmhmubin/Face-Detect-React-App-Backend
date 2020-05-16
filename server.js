@@ -14,7 +14,7 @@ const db = knex({
   connection: {
     host: "127.0.0.1",
     user: "postgres",
-    password: "password",
+    password: "",
     database: "Face-Detect-React-App",
   },
 });
@@ -22,7 +22,6 @@ const db = knex({
 const app = express();
 
 app.use(cors());
-
 app.use(bodyParser.json());
 
 app.get("/", (req, res) => {
@@ -42,6 +41,6 @@ app.post("/imageurl", (req, res) => {
   image.handleApiCall(req, res);
 });
 
-app.listen(process.env.PORT || 3000, () => {
-  console.log(`App is running on port ${process.env.PORT}`);
+app.listen(3000, () => {
+  console.log("app is running on port 3000");
 });
