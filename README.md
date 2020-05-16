@@ -4,6 +4,8 @@ This is the server side repository of Face Detect React App. You can find the Cl
 
 [Face Detect React App ](https://github.com/kmhmubin/Face-Detection-React-App) 
 
+<a href="https://github.com/kmhmubin/Face-Detection-React-App" target="_blank">Face Detect React App Frontend</a>
+
 ### Installation ⚙
 
 First npm install 
