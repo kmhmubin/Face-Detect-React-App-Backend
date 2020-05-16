@@ -1,13 +1,26 @@
 {
-  "name": "backend-api",
+  "name": "face-detect-react-app-backend",
   "version": "1.0.0",
-  "description": "Face Detection React App Backend API config files",
+  "description": "Face Detection React APP Backend API",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kmhmubin/Face-Detect-React-App-Backend.git"
+  },
+  "keywords": [
+    "Face",
+    "Detection",
+    "Backend"
+  ],
   "author": "K.M.H.Mubin",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kmhmubin/Face-Detect-React-App-Backend/issues"
+  },
+  "homepage": "https://github.com/kmhmubin/Face-Detect-React-App-Backend#readme",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.19.0",
@@ -15,7 +28,9 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.21.1",
-    "nodemon": "^2.0.4",
-    "pg": "^8.2.0"
+    "pg": "^8.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
