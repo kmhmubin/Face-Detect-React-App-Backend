@@ -2,13 +2,13 @@
 
 This is the server side repository of Face Detect React App. You can find the Client side of this app from this link below.
 
-[Face Detect React App ](https://github.com/kmhmubin/Face-Detection-React-App) 
+[Face Detect React App ](https://github.com/kmhmubin/Face-Detection-React-App){:target="\_blank"}
 
 <a href="https://github.com/kmhmubin/Face-Detection-React-App" target="_blank">Face Detect React App Frontend</a>
 
 ### Installation ⚙
 
-First npm install 
+First npm install
 
 ```
 npm install
@@ -46,4 +46,3 @@ change the default scripts parts
     "start": "nodemon server.js"
 }
 ```
-
